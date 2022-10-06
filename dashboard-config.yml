@@ -32,7 +32,6 @@ ontologies:
   #registry: "https://raw.githubusercontent.com/OBOFoundry/OBOFoundry.github.io/master/registry/ontologies.yml"
   #todo, deal with: bto chebi dron gaz ncbitaxon ncit pr uberon
   custom:
-    - id: vario
     - id: afo
       mirror_from: http://purl.allotrope.org/ontologies/voc/afo/latest
       title: "Allotrope Merged Ontology Suite"
