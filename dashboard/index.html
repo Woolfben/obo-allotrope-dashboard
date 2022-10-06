@@ -1,5 +1,5 @@
 <head>
-  <title>OBO Dashboard: New Ontology Requests (2022-10-06)</title>
+  <title>OBO Dashboard: Allotrope Ontology Suite (2022-10-06)</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <style>
 body {
@@ -38,8 +38,8 @@ $(function () {
 </script>
 </head>
 <body>
-  <h1>OBO Dashboard: New Ontology Requests (2022-10-06)</h1>
-  <h4>Dashboard for checking new ontology requests to the OBO Foundry. Under construction. <a href="about.html">Learn More!</a></h4>
+  <h1>OBO Dashboard: Allotrope Ontology Suite (2022-10-06)</h1>
+  <h4>Dashboard for checking the Allotrope ontology suite against the OBO Foundry guidelines. <a href="about.html">Learn More!</a></h4>
   <p>Created with <a href="http://robot.obolibrary.org/">ROBOT version 1.9.0</a> and <a href="https://github.com/OBOFoundry/OBO-Dashboard/commit/1844d3889d9d84b29bc9c20c30ec8005e0ea3aca">OBO Metadata Schema</a>.</p>
   <p>A very basic analysis of the results can be found <a href="analysis.html">here</a>.</p>
   <table class="table table-borderless">
@@ -96,7 +96,7 @@ $(function () {
     <tbody class="scrollContent">
     
         <tr>
-            <td><b><a href="bpdo/dashboard.html">bpdo</a></b></td>
+            <td><b><a href="afo/dashboard.html">afo</a></b></td>
             
             
             
@@ -106,7 +106,7 @@ $(function () {
                         
                         
                     
-                    <td class="check table-success"><img src="assets/check.svg" height="15px"></td>
+                    <td class="check table-danger"><img src="assets/x.svg" height="15px" data-toggle="tooltip" data-html="true" data-placement="right" title="Ontology license 'http://purl.allotrope.org/voc/creative-commons-attribution-license' does not match regsitry license 'https://creativecommons.org/licenses/by/4.0/'."></td>
                 
             
                 
@@ -115,151 +115,7 @@ $(function () {
                         
                         
                     
-                    <td class="check table-success"><img src="assets/check.svg" height="15px"></td>
-                
-            
-                
-                
-                    
-                        
-                        
-                    
-                    <td class="check table-success"><img src="assets/check.svg" height="15px"></td>
-                
-            
-                
-                
-                    
-                        
-                        
-                    
-                    <td class="check table-success"><img src="assets/check.svg" height="15px"></td>
-                
-            
-                
-                
-                    
-                        
-                        
-                    
-                    <td class="check table-success"><img src="assets/check.svg" height="15px"></td>
-                
-            
-                
-                
-                    
-                        
-                        
-                    
-                    <td class="check table-danger"><img src="assets/x.svg" height="15px" data-toggle="tooltip" data-html="true" data-placement="right" title="6 multiple definitions. 67 missing definitions. See ROBOT Report for details."></td>
-                
-            
-                
-                
-                    
-                        
-                        
-                    
-                    <td class="check table-success"><img src="assets/check.svg" height="15px"></td>
-                
-            
-                
-                
-                    
-                        
-                        
-                    
-                    <td class="check table-success"><img src="assets/check.svg" height="15px"></td>
-                
-            
-                
-                
-                    
-                        
-                        
-                    
-                    <td class="check table-danger"><img src="assets/x.svg" height="15px" data-toggle="tooltip" data-html="true" data-placement="right" title="Missing usages"></td>
-                
-            
-                
-                
-                    
-                        
-                        
-                    
-                    <td class="check table-success"><img src="assets/check.svg" height="15px"></td>
-                
-            
-                
-                
-                    
-                        
-                        
-                    
-                    <td class="check table-danger"><img src="assets/x.svg" height="15px" data-toggle="tooltip" data-html="true" data-placement="right" title="6 multiple labels. See ROBOT Report for details."></td>
-                
-            
-                
-                
-                    
-                        
-                        
-                    
-                    <td class="check table-success"><img src="assets/check.svg" height="15px"></td>
-                
-            
-                
-                
-                    
-                        
-                        
-                    
-                    <td class="check table-success"><img src="assets/check.svg" height="15px"></td>
-                
-            
-                
-                
-                    
-                        
-                        
-                    
-                    <td class="check table-danger"><img src="assets/x.svg" height="15px" data-toggle="tooltip" data-html="true" data-placement="right" title="12 errors, 69 warnings, 1 info messages."></td>
-                
-            
-            
-            
-                
-                
-                    
-                        
-                        
-                    
-                    <td class="check table-danger"><img src="assets/x.svg" height="15px"></td>
-                
-            
-        </tr>
-    
-        <tr>
-            <td><b><a href="mcro/dashboard.html">mcro</a></b></td>
-            
-            
-            
-                
-                
-                    
-                        
-                        
-                    
-                    <td class="check table-success"><img src="assets/check.svg" height="15px"></td>
-                
-            
-                
-                
-                    
-                        
-                        
-                    
-                    <td class="check table-success"><img src="assets/check.svg" height="15px"></td>
+                    <td class="check table-warning"><img src="assets/warning.svg" height="15px" data-toggle="tooltip" data-html="true" data-placement="right" title="OWL syntax (Turtle), but should be RDF/XML"></td>
                 
             
                 
@@ -277,7 +133,7 @@ $(function () {
                         
                         
                     
-                    <td class="check table-warning"><img src="assets/warning.svg" height="15px" data-toggle="tooltip" data-html="true" data-placement="right" title="Version IRI 'https://raw.githubusercontent.com/UTHealth-Ontology/MCRO/main/mcro.owl' is not in recommended format"></td>
+                    <td class="check table-warning"><img src="assets/warning.svg" height="15px" data-toggle="tooltip" data-html="true" data-placement="right" title="Version IRI 'http://purl.allotrope.org/voc/afo/merged/REC/2022/09/merged' is not in recommended format"></td>
                 
             
                 
@@ -331,7 +187,7 @@ $(function () {
                         
                         
                     
-                    <td class="check table-success"><img src="assets/check.svg" height="15px"></td>
+                    <td class="check table-danger"><img src="assets/x.svg" height="15px" data-toggle="tooltip" data-html="true" data-placement="right" title="Invalid contact information"></td>
                 
             
                 
@@ -368,318 +224,6 @@ $(function () {
                         
                     
                     <td class="check table-success"><img src="assets/check.svg" height="15px"></td>
-                
-            
-            
-            
-                
-                
-                    
-                        
-                        
-                    
-                    <td class="check table-danger"><img src="assets/x.svg" height="15px"></td>
-                
-            
-        </tr>
-    
-        <tr>
-            <td><b><a href="ngbo/dashboard.html">ngbo</a></b></td>
-            
-            
-            
-                
-                
-                    
-                        
-                        
-                    
-                    <td class="check table-success"><img src="assets/check.svg" height="15px"></td>
-                
-            
-                
-                
-                    
-                        
-                        
-                    
-                    <td class="check table-success"><img src="assets/check.svg" height="15px"></td>
-                
-            
-                
-                
-                    
-                        
-                        
-                    
-                    <td class="check table-success"><img src="assets/check.svg" height="15px"></td>
-                
-            
-                
-                
-                    
-                        
-                        
-                    
-                    <td class="check table-success"><img src="assets/check.svg" height="15px"></td>
-                
-            
-                
-                
-                    
-                        
-                        
-                    
-                    <td class="check table-success"><img src="assets/check.svg" height="15px"></td>
-                
-            
-                
-                
-                    
-                        
-                        
-                    
-                    <td class="check table-success"><img src="assets/check.svg" height="15px"></td>
-                
-            
-                
-                
-                    
-                        
-                        
-                    
-                    <td class="check table-info"><img src="assets/info.svg" height="15px" data-toggle="tooltip" data-html="true" data-placement="right" title="6 non-RO properties used."></td>
-                
-            
-                
-                
-                    
-                        
-                        
-                    
-                    <td class="check table-success"><img src="assets/check.svg" height="15px"></td>
-                
-            
-                
-                
-                    
-                        
-                        
-                    
-                    <td class="check table-danger"><img src="assets/x.svg" height="15px" data-toggle="tooltip" data-html="true" data-placement="right" title="Missing usages"></td>
-                
-            
-                
-                
-                    
-                        
-                        
-                    
-                    <td class="check table-success"><img src="assets/check.svg" height="15px"></td>
-                
-            
-                
-                
-                    
-                        
-                        
-                    
-                    <td class="check table-success"><img src="assets/check.svg" height="15px"></td>
-                
-            
-                
-                
-                    
-                        
-                        
-                    
-                    <td class="check table-success"><img src="assets/check.svg" height="15px"></td>
-                
-            
-                
-                
-                    
-                        
-                        
-                    
-                    <td class="check table-success"><img src="assets/check.svg" height="15px"></td>
-                
-            
-                
-                
-                    
-                        
-                        
-                    
-                    <td class="check table-info"><img src="assets/info.svg" height="15px" data-toggle="tooltip" data-html="true" data-placement="right" title="{0} info messages."></td>
-                
-            
-            
-            
-                
-                
-                    
-                        
-                        
-                    
-                    <td class="check table-danger"><img src="assets/x.svg" height="15px"></td>
-                
-            
-        </tr>
-    
-        <tr>
-            <td><b><a href="scho/dashboard.html">scho</a></b></td>
-            
-                <td class="table-notchecked" colspan="13">Failed to process ontology: failed_download</td>
-            
-            
-                
-                
-                <td class="check table-danger"><img src="assets/x.svg" height="15px"></td>
-            
-        </tr>
-    
-        <tr>
-            <td><b><a href="t4fs/dashboard.html">t4fs</a></b></td>
-            
-                <td class="table-notchecked" colspan="13">Failed to process ontology: failed_download</td>
-            
-            
-                
-                
-                <td class="check table-danger"><img src="assets/x.svg" height="15px"></td>
-            
-        </tr>
-    
-        <tr>
-            <td><b><a href="vario/dashboard.html">vario</a></b></td>
-            
-            
-            
-                
-                
-                    
-                        
-                        
-                    
-                    <td class="check table-danger"><img src="assets/x.svg" height="15px" data-toggle="tooltip" data-html="true" data-placement="right" title="Missing ontology license. Missing registry license."></td>
-                
-            
-                
-                
-                    
-                        
-                        
-                    
-                    <td class="check table-warning"><img src="assets/warning.svg" height="15px" data-toggle="tooltip" data-html="true" data-placement="right" title="OWL syntax (OWL Functional Syntax), but should be RDF/XML"></td>
-                
-            
-                
-                
-                    
-                        
-                        
-                    
-                    <td class="check table-success"><img src="assets/check.svg" height="15px"></td>
-                
-            
-                
-                
-                    
-                        
-                        
-                    
-                    <td class="check table-danger"><img src="assets/x.svg" height="15px" data-toggle="tooltip" data-html="true" data-placement="right" title="Missing version IRI"></td>
-                
-            
-                
-                
-                    
-                        
-                        
-                    
-                    <td class="check table-success"><img src="assets/check.svg" height="15px"></td>
-                
-            
-                
-                
-                    
-                        
-                        
-                    
-                    <td class="check table-danger"><img src="assets/x.svg" height="15px" data-toggle="tooltip" data-html="true" data-placement="right" title="6 duplicate definitions. 17 missing definitions. See ROBOT Report for details."></td>
-                
-            
-                
-                
-                    
-                        
-                        
-                    
-                    <td class="check table-danger"><img src="assets/x.svg" height="15px" data-toggle="tooltip" data-html="true" data-placement="right" title="2 labels match RO labels. 19 non-RO properties used."></td>
-                
-            
-                
-                
-                    
-                        
-                        
-                    
-                    <td class="check table-success"><img src="assets/check.svg" height="15px"></td>
-                
-            
-                
-                
-                    
-                        
-                        
-                    
-                    <td class="check table-danger"><img src="assets/x.svg" height="15px" data-toggle="tooltip" data-html="true" data-placement="right" title="Missing tracker and usages"></td>
-                
-            
-                
-                
-                    
-                        
-                        
-                    
-                    <td class="check table-danger"><img src="assets/x.svg" height="15px" data-toggle="tooltip" data-html="true" data-placement="right" title="Invalid contact information"></td>
-                
-            
-                
-                
-                    
-                        
-                        
-                    
-                    <td class="check table-success"><img src="assets/check.svg" height="15px"></td>
-                
-            
-                
-                
-                    
-                        
-                        
-                    
-                    <td class="check table-danger"><img src="assets/x.svg" height="15px" data-toggle="tooltip" data-html="true" data-placement="right" title="Missing version IRI to check date"></td>
-                
-            
-                
-                
-                    
-                        
-                        
-                    
-                    <td class="check table-danger"><img src="assets/x.svg" height="15px" data-toggle="tooltip" data-html="true" data-placement="right" title="Missing tracker and usages"></td>
-                
-            
-                
-                
-                    
-                        
-                        
-                    
-                    <td class="check table-danger"><img src="assets/x.svg" height="15px" data-toggle="tooltip" data-html="true" data-placement="right" title="9 errors, 17 warnings, 6 info messages."></td>
                 
             
             
