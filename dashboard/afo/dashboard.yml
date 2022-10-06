@@ -3,7 +3,7 @@ base_prefixes:
 - AFO
 - AFOALT
 changed: true
-date: 2022-10-06 12:09:32.764732
+date: 2022-10-06 14:59:19.904024
 metrics:
   'Axioms: Breakdown of axiom types':
     AnnotationAssertion: 20754
@@ -57,13 +57,13 @@ metrics:
     ObjectUnionOf: 63
   'Info: Does the ontology fall under OWL 2 DL?': false
   'Info: Experimental OBO score':
-    _dashboard: 0.616
+    _dashboard: 0.749
     _formula: (1*impact+1*dashboard)/2
     _impact: 0.0
-    _impact_external: 0
+    _impact_external: 0.25
     _reuse: 1.0
-    oboscore: 0.308
-  'Info: How many externally documented uses?': 0
+    oboscore: 0.374
+  'Info: How many externally documented uses?': 2
   'Info: How many ontologies use it?': 0
   'Info: Logical consistency': true
   'Info: Syntax': Turtle
@@ -119,11 +119,9 @@ results:
   FP08 Documented:
     status: PASS
   FP09 Plurality of Users:
-    comment: Missing usages
-    status: ERROR
+    status: PASS
   FP11 Locus of Authority:
-    comment: Invalid contact information
-    status: ERROR
+    status: PASS
   FP12 Naming Conventions:
     status: PASS
   FP16 Maintenance:
@@ -135,10 +133,10 @@ results:
     status: PASS
 sha256_hash: a57118d5dc2e5682151c11cabfd8a762a611f13f5ee54a99aa6833afafafee73
 summary:
-  comment: 4 errors
+  comment: 2 errors
   status: ERROR
   summary_count:
-    ERROR: 4
+    ERROR: 2
     INFO: 1
     WARN: 2
 version: http://purl.allotrope.org/voc/afo/merged/REC/2022/09/merged
