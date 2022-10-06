@@ -33,16 +33,16 @@ ontologies:
   #todo, deal with: bto chebi dron gaz ncbitaxon ncit pr uberon
   custom:
     - id: afo
-      mirror_from: http://purl.allotrope.org/ontologies/voc/afo/latest
+      mirror_from: http://purl.allotrope.org/voc/afo/merged/REC/2022/09/merged.ttl
       title: "Allotrope Merged Ontology Suite"
       contact:
-        email: muhammad.f.amith@uth.tmc.edu
-        label: Tuan Amith
-        orcid: 0000-0003-4333-1857
-        github: UTH-Tuan
+        email: benjamin.woolford-lim@allotrope.org
+        label: Benjamin Woolford-Lim
+#        orcid: 0000-0003-4333-1857
+        github: Woolfben
       description: 'The AFO is an ontology suite that provides a standard vocabulary and semantic model for the representation of laboratory analytical processes. The AFO suite is aligned at the upper layer to the Basic Formal Ontology (BFO). The core domains modeled include: Equipment, Material, Process, and Results.'
-      domain: information technology
-      homepage: https://github.com/UTHealth-Ontology/MCRO
+      domain: biomedical
+      homepage: https://www.allotrope.org/
       products:
         - id: merged.ttl
 #      dependencies:
