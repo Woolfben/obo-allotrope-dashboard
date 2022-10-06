@@ -38,7 +38,7 @@ ontologies:
       contact:
         email: benjamin.woolford-lim@allotrope.org
         label: Benjamin Woolford-Lim
-#        orcid: 0000-0003-4333-1857
+        orcid: 0000-0002-5766-1956
         github: Woolfben
       description: 'The AFO is an ontology suite that provides a standard vocabulary and semantic model for the representation of laboratory analytical processes. The AFO suite is aligned at the upper layer to the Basic Formal Ontology (BFO). The core domains modeled include: Equipment, Material, Process, and Results.'
       domain: biomedical
@@ -52,6 +52,11 @@ ontologies:
       license:
         url: https://creativecommons.org/licenses/by/4.0/
         label: CC BY 4.0
+      usages:
+        - user: https://www.zontal.io/
+          description: Zontal Space integrates the Allotrope ontologies.
+        - user: https://www.pistoiaalliance.org/methods/april-2022-methods-database-hplc-uv-methods/
+          description: Pistoia Alliance Methods Hub project leverages Allotrope ontologies and data models to store and transfer HPLC-UV methods across different instruments.
 #    - id: bpdo
 #      title: Bipolar Disorder Ontology
 #      contact:
