@@ -29,7 +29,7 @@ ontologies:
   - AFO
   - AFOALT
   changed: true
-  date: 2022-10-06 14:59:19.904024
+  date: 2024-10-21 13:24:01.668498
   metrics:
     'Axioms: Breakdown of axiom types':
       AnnotationAssertion: 20754
@@ -157,7 +157,7 @@ ontologies:
       status: PASS
     ROBOT Report:
       status: PASS
-  sha256_hash: a57118d5dc2e5682151c11cabfd8a762a611f13f5ee54a99aa6833afafafee73
+  sha256_hash: e0ba80fce3468fe4c2ab81611afa72f5854e146664617084b2a7646adda1ccce
   summary:
     comment: 2 errors
     status: ERROR
