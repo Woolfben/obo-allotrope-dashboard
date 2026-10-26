@@ -29,7 +29,7 @@ ontologies:
   - AFO
   - AFOALT
   changed: true
-  date: 2022-10-06 14:59:19.904024
+  date: 2026-10-26 19:00:19.517970
   metrics:
     'Axioms: Breakdown of axiom types':
       AnnotationAssertion: 20754
@@ -83,12 +83,12 @@ ontologies:
       ObjectUnionOf: 63
     'Info: Does the ontology fall under OWL 2 DL?': false
     'Info: Experimental OBO score':
-      _dashboard: 0.749
+      _dashboard: 0.682
       _formula: (1*impact+1*dashboard)/2
       _impact: 0.0
       _impact_external: 0.25
       _reuse: 1.0
-      oboscore: 0.374
+      oboscore: 0.341
     'Info: How many externally documented uses?': 2
     'Info: How many ontologies use it?': 0
     'Info: Logical consistency': true
@@ -143,7 +143,8 @@ ontologies:
     FP07 Relations:
       status: PASS
     FP08 Documented:
-      status: PASS
+      comment: Homepage URL (https://www.allotrope.org/) does not resolve
+      status: ERROR
     FP09 Plurality of Users:
       status: PASS
     FP11 Locus of Authority:
@@ -157,12 +158,12 @@ ontologies:
       status: PASS
     ROBOT Report:
       status: PASS
-  sha256_hash: a57118d5dc2e5682151c11cabfd8a762a611f13f5ee54a99aa6833afafafee73
+  sha256_hash: e0ba80fce3468fe4c2ab81611afa72f5854e146664617084b2a7646adda1ccce
   summary:
-    comment: 2 errors
+    comment: 3 errors
     status: ERROR
     summary_count:
-      ERROR: 2
+      ERROR: 3
       INFO: 1
       WARN: 2
   version: http://purl.allotrope.org/voc/afo/merged/REC/2022/09/merged
